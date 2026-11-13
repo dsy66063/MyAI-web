@@ -7,8 +7,9 @@ client = OpenAI(
     base_url="https://open.bigmodel.cn/api/paas/v4/" 
 )
 
-st.set_page_config(page_title="我的专属 AI", page_icon="🤖")
-st.title("🤖 我的专属 AI 网站")
+st.set_page_config(page_title="Dsy AI", page_icon="🤖")
+st.title("🤖 Dsy AI 网站")
+st.markdown("⭐ 如果你觉得这个 AI 好玩，请去 [GitHub 给我的项目点个 Star](https://github.com/dsy66063/MyAI-web) ⭐")
 st.caption("基于智谱免费大模型打造")
 
 # 初始化聊天记录
