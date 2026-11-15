@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # 1. 把你刚才拿到的智谱 Key 填在下面引号里（格式是 xxx.xxx）
 client = OpenAI(
-    api_key="91076308518c47cc80056a9fbfe0b997.gS8CuUyGcKM05Fda", 
+    api_key=st.secrets["ZHIPU_API_KEY"], 
     base_url="https://open.bigmodel.cn/api/paas/v4/" 
 )
 
